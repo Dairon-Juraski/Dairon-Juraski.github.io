@@ -1,0 +1,56 @@
+  body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 207, 0);
+  }
+
+  a.exerc:hover {
+    font-size: large;
+    color: rgb(129, 136, 204);
+  }
+
+  a.prova:hover {
+    font-size: large;
+    color: darkturquoise;
+  }
+
+  a.info:hover {
+    font-size: large;
+    color: rgb(209, 118, 0);
+  }
+
+  a.extra:hover {
+    font-size: large;
+    color: rgb(26, 151, 209);
+  }
+
+  button:hover {
+    border-radius: 3px;
+    border-color: rgb(255, 0, 0);
+  }
+
+  tr:nth-of-type(even){
+    background-color: rgb(42, 43, 46);
+  }
+  
+  input,
+  select,
+  button,
+  [role="button"],
+  a.button,
+  a.submit,
+  a.BigButton,
+  a.TabLink,
+  .install[onclick] {
+    text-indent: 5px;
+    appearance: none !important;
+    -moz-appearance: none !important;
+    -webkit-appearance: none !important;
+    background: rgb(139, 211, 184) !important;
+  }
+
+  textarea {
+    appearance: none !important;
+    -moz-appearance: none !important;
+    -webkit-appearance: none !important;
+    background: rgb(132, 182, 163) !important;
+  }
