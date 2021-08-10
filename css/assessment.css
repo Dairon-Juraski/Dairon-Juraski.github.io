@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 207, 0);
+}
+
+/* -- Forms -- */
+
+form {
+    font-size: medium;
+}
+
+fieldset {
+    border-radius: 5px;
+    border-color: rgb(3, 88, 3);
+}
+
+input {
+    background: rgb(143, 219, 162);
+    font-size: medium;
+    font-style: italic;
+}
+
+
+/* Reset Button */
+button.negative {
+    background-color: rgb(166, 89, 89);
+    font-size: medium;
+    border-radius: 3px;
+}
+
+button.negative:hover {
+    background-color: rgb(206, 31, 31);
+    font-size: medium;
+    color: black;
+    border-radius: 3px;
+    border-color: rgb(230, 186, 105);
+}
+
+/* Done Button */
+button.positive {
+    background-color: rgb(83, 172, 105);
+    font-size: medium;
+    border-radius: 3px;
+}
+
+button.positive:hover {
+    background-color: rgb(38, 217, 83);
+    font-size: medium;
+    color: black;
+    border-radius: 3px;
+    border-color: rgb(30, 68, 128);
+}
+
+/* Themes Buttons */
+div.button {
+    position: absolute;
+    right: 0%;
+    margin-right: 10px;
+}
+
+button.theme {
+    background-color: rgb(168, 163, 163);
+    font-size: medium;
+    border-radius: 3px;
+}
+
+button.theme:hover {
+    background-color: rgb(86, 122, 200);
+    font-size: medium;
+    color: black;
+    border-radius: 3px;
+    border-color: rgb(255, 255, 255);
+}
+
